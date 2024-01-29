@@ -1,18 +1,106 @@
+:root {
+  --primary: #ff5722;
+}
 html {
-    box-sizing: border-box;
-    font-size: 62.5%;
-    direction: rtl;
-  }
-  *,
-  *::after,
-  *::before {
-    box-sizing: inherit;
-  }
-  
-  body {
-    font-size: 1.6rem;
-    line-height: 1.6;
-    font-family: "danaLight";
-    
-  }
-  
+  box-sizing: border-box;
+  font-size: 62.5%;
+  direction: rtl;
+}
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  font-family: "danaLight";
+}
+
+/* Desktop Nav Styles */
+.desktopNavWrapper {
+  background-color: #f8f8f8;
+  border-bottom: 0.1rem solid #ddd;
+}
+.desktopNav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+}
+.desktopNavLogo {
+  font-family: "danaBold";
+  color: #000;
+  font-size: 2.2rem;
+  position: relative;
+  transition: 0.1s all ease-in-out;
+}
+.desktopNavLogo::before {
+  content: "";
+  position: absolute;
+  width: 3rem;
+  height: 0.5rem;
+  background-color: var(--primary);
+  left: -4rem;
+  bottom: 1.7rem;
+  transition: 0.1s all ease-in-out;
+}
+.desktopNavLogo::after {
+  content: "";
+  position: absolute;
+  width: 1.8rem;
+  height: 0.5rem;
+  background-color: var(--primary);
+  left: -2.8rem;
+  bottom: 2.7rem;
+  transition: 0.1s all ease-in-out;
+  -webkit-transition: 0.1s all ease-in-out;
+  -moz-transition: 0.1s all ease-in-out;
+  -ms-transition: 0.1s all ease-in-out;
+  -o-transition: 0.1s all ease-in-out;
+}
+.desktopNavLogo:hover,
+.desktopNavMenuLink:hover {
+  color: var(--primary);
+}
+
+.desktopNavLogo:hover::after,
+.desktopNavLogo:hover::before {
+  background-color: #000;
+}
+.desktopNavMenuLink {
+  color: #545454;
+}
+
+.desktopNavMenu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+.desktopNavAppDownloadBtn {
+  background-color: var(--primary);
+  padding: 1rem 3rem;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  transition: 0.3s all ease-in-out;
+  -webkit-transition: 0.3s all ease-in-out;
+  -moz-transition: 0.3s all ease-in-out;
+  -ms-transition: 0.3s all ease-in-out;
+  -o-transition: 0.3s all ease-in-out;
+}
+.desktopNavAppDownloadBtn:hover {
+  transform: scale(0.95);
+  -webkit-transform: scale(0.95);
+  -moz-transform: scale(0.95);
+  -ms-transform: scale(0.95);
+  -o-transform: scale(0.95);
+}
+.desktopNavAppDownloadBtn .desktopNavMenuLink {
+  color: #fff;
+}

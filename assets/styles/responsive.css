@@ -5,7 +5,7 @@
   }
   @media (min-width: 1400px) {
     .container {
-      width: 1300px;
+      width: 1370px;
     }
   }
   
@@ -25,11 +25,17 @@
     .container {
       width: 720px;
     }
+    .desktopNavAppDownloadBtn {
+      display: none;
+    }
   }
   
   @media (max-width: 767px) and (min-width: 576px) {
     .container {
-      width: 100%;
+      width: 540px;
+    }
+    .desktopNavMenu {
+      display: none;
     }
   }
   
