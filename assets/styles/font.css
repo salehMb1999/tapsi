@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "danaBold";
+    src: url(./../fonts/dana-bold.ttf) format("truetype");
+  }
+  @font-face {
+    font-family: "danaMedium";
+        src: url(./../fonts/dana-medium.ttf) format("truetype");
+
+  }
+  @font-face {
+    font-family: "danaLight";
+        src: url(./../fonts/dana-light.ttf) format("truetype");
+
+  }
