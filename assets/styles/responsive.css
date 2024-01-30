@@ -39,6 +39,13 @@
   .desktopNavLogo::after {
     bottom: 1.7rem;
   }
+  .phoneImgWrapper {
+    display: none;
+  }
+  .headerWrapper {
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 @media (max-width: 767px) {
@@ -51,10 +58,41 @@
   .hamburgerLineWrappper {
     display: flex;
   }
+  .headerBtnsWrapper {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .requestWrapper {
+    width: 31rem;
+  }
+  .headerBtn {
+    width: 25rem;
+  }
+  .headerTitle {
+    font-size: 3rem;
+  }
+  .headerSubTitle {
+    font-size: 1.7rem;
+  }
 }
 
 @media (max-width: 575px) {
   .container {
     width: 100%;
+  }
+  .requestWrapper {
+    width: 28rem;
+  }
+  .headerBtn {
+    width: 20rem;
+    padding: 1rem 0.8rem;
+    gap: 0.7rem;
+  }
+  .headerTitle {
+    font-size: 2.5rem;
+  }
+  .headerSubTitle {
+    font-size: 1.6rem;
   }
 }

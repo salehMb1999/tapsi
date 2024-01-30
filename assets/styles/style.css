@@ -16,6 +16,7 @@ body {
   font-size: 1.6rem;
   line-height: 1.6;
   font-family: "danaLight";
+  overflow-x: hidden;
 }
 
 /* Desktop Nav Styles */
@@ -198,7 +199,6 @@ body {
 }
 .headerWrapper {
   display: flex;
-  /* flex-direction: column; */
   height: 100%;
   align-items: flex-end;
   justify-content: flex-start;
@@ -209,13 +209,47 @@ body {
     rgba(23, 26, 60, 0.7) 5%,
     rgba(23, 26, 60, 0.3) 95%
   );
-  padding: 25px;
+  padding: 2.5rem;
   width: 528px;
   border-radius: 2rem;
   -webkit-border-radius: 2rem;
   -moz-border-radius: 2rem;
   -ms-border-radius: 2rem;
   -o-border-radius: 2rem;
+}
+.headerTitle {
+  color: #fff;
+  font-family: "danaBold";
+  font-size: 5rem;
+}
+.headerSubTitle {
+  font-family: "danaMedium";
+  color: #fff;
+  font-size: 2.2rem;
+}
+.headerBtnsWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 3rem;
+}
+.headerBtn {
+  display: flex;
+  padding: 1.5rem 2.5rem;
+  border-radius: 1.5rem;
+  -webkit-border-radius: 1.5rem;
+  -moz-border-radius: 1.5rem;
+  -ms-border-radius: 1.5rem;
+  -o-border-radius: 1.5rem;
+  border: 0.2rem solid #fff;
+  color: #fff;
+  gap: 1.5rem;
+  align-items: center;
+}
+.specialHeaderBtn {
+  background-color: #fff;
+  color: #000;
 }
 .phoneImgWrapper {
   position: absolute;
