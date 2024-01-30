@@ -342,7 +342,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 15rem;
+  margin-bottom: 25rem;
 }
 .specialTexts {
   width: 45%;
@@ -392,5 +392,64 @@ body {
   -o-transition: all 0.2s ease-in-out;
 }
 .specialTextsBtn:hover {
+  opacity: 0.9;
+}
+
+/* Credit Styles */
+
+.credit {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15rem;
+}
+.creditTexts {
+  width: 45%;
+}
+.creditImgWrapper {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.creditTextsTitle {
+  font-size: 3.5rem;
+  font-family: "danaBold";
+  margin-bottom: 5rem;
+}
+.creditTextsCaption {
+  color: #333333;
+  font-family: "danaMedium";
+}
+.creditImg {
+  width: 90%;
+}
+.creditLinksWrapper {
+  margin-top: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: flex-start;
+}
+.creditTextsLink {
+  color: var(--primary);
+  font-family: "danaBold";
+}
+.creditTextsBtn {
+  background-color: var(--primary);
+  color: #fff;
+  padding: 1.5rem 2rem;
+  border-radius: 1.5rem;
+  -webkit-border-radius: 1.5rem;
+  -moz-border-radius: 1.5rem;
+  -ms-border-radius: 1.5rem;
+  -o-border-radius: 1.5rem;
+  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+}
+.creditTextsBtn:hover {
   opacity: 0.9;
 }

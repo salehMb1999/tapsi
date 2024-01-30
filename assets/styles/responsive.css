@@ -51,6 +51,13 @@
   .servicesChoicesWrapper {
     overflow-x: scroll;
   }
+  .services {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+  .special {
+    margin-bottom: 10rem;
+  }
 }
 
 @media (max-width: 767px) {
@@ -110,6 +117,23 @@
     width: 100%;
   }
   .specialTextsTitle {
+    margin-top: 3rem;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  .credit {
+    flex-direction: column;
+  }
+  .creditImgWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .creditTexts {
+    width: 100%;
+  }
+  .creditTextsTitle {
     margin-top: 3rem;
     font-size: 2rem;
     margin-bottom: 2rem;
