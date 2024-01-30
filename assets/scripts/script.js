@@ -17,4 +17,3 @@ mainLine.addEventListener("click", () => {
     isMenuOpen = false;
   }
 });
-
