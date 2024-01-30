@@ -59,7 +59,11 @@
     margin-bottom: 10rem;
   }
 }
-
+@media (max-width: 810px) {
+  .map {
+    display: none;
+  }
+}
 @media (max-width: 767px) {
   .container {
     width: 570px;

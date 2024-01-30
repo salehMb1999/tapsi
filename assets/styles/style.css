@@ -562,3 +562,24 @@ body {
 .driverBtn:hover {
   opacity: 0.9;
 }
+
+/* Map Styles */
+
+.map {
+  background: #f8f8f9 url(./../images/map-back.svg) no-repeat;
+  padding: 40px 10%;
+  /* height: 50rem; */
+}
+.mapTitle {
+  color: #000;
+  font-family: "danaBold";
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+.mapCities {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  row-gap: 2rem;
+  font-size: 1.7rem;
+  font-family: "danaMedium";
+}
