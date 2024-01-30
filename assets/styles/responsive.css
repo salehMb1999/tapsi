@@ -75,6 +75,25 @@
   .headerSubTitle {
     font-size: 1.7rem;
   }
+  .servicesChoicesWrapper {
+    overflow-x: scroll;
+  }
+  .servicesCaptionsWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .choiceImgWrapper {
+    width: 8rem;
+  }
+  .servicesCaptionsImgWrapper {
+    display: none;
+  }
+  .servicesCaptionsTextWrapper {
+    width: 100%;
+    padding-top: 3rem;
+  }
 }
 
 @media (max-width: 575px) {
@@ -94,5 +113,15 @@
   }
   .headerSubTitle {
     font-size: 1.6rem;
+  }
+  .services {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .servicesTitle {
+    font-size: 2.5rem;
+  }
+  .serviceCaptionTitle {
+    font-size: 1.7rem;
   }
 }

@@ -271,6 +271,9 @@ body {
 
 .services {
   margin-top: 25rem;
+  border-bottom: 0.2rem solid #0000001b;
+  margin-bottom: 15rem;
+  padding-bottom: 10rem;
 }
 .servicesTitle {
   font-size: 3.5rem;
@@ -282,6 +285,7 @@ body {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 3rem;
+  gap: 1rem;
 }
 .servicesChoice {
   padding: 0.5rem;
@@ -320,7 +324,7 @@ body {
 }
 .serviceCaptionTitle {
   font-size: 3rem;
-  font-family: "danaMedium";
+  font-family: "danaBold";
   color: #141414;
   margin-bottom: 2rem;
 }
