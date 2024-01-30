@@ -23,13 +23,14 @@ body {
 .desktopNavWrapper {
   background-color: #f8f8f8;
   border-bottom: 0.1rem solid #ddd;
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 .desktopNav {
   display: flex;
   justify-content: space-between;
   padding: 1rem;
-  position: sticky;
-  top: 0;
 }
 .desktopNavLogo {
   font-family: "danaBold";
@@ -183,6 +184,11 @@ body {
   align-items: center;
   gap: 2rem;
   padding: 2rem 0;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
 }
 
 /* Header styles */
@@ -259,4 +265,69 @@ body {
 }
 .phoneImg {
   width: 100%;
+}
+
+/* Services Styles */
+
+.services {
+  margin-top: 25rem;
+}
+.servicesTitle {
+  font-size: 3.5rem;
+  font-family: "danaBold";
+  margin-bottom: 5rem;
+}
+.servicesChoicesWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+.servicesChoice {
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.choiceImgWrapper {
+  width: 9.5rem;
+  cursor: pointer;
+}
+.choiceImg {
+  width: 100%;
+  opacity: 0.5;
+}
+.choiceImgWrapper:hover .choiceImg {
+  opacity: 1;
+}
+
+.servicesCaptionsWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 4rem;
+}
+.servicesCaptionsTextWrapper {
+  width: 45%;
+  padding-top: 3rem;
+}
+.servicesCaptionsImgWrapper {
+  width: 50%;
+}
+.servicesCaptionsImg {
+  width: 100%;
+}
+.serviceCaptionTitle {
+  font-size: 3rem;
+  font-family: "danaMedium";
+  color: #141414;
+  margin-bottom: 2rem;
+}
+.servicesCaptionText {
+  font-family: "danaMedium";
+  color: #333333;
+}
+.activeService .choiceImg {
+  opacity: 1;
 }
