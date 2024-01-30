@@ -8,6 +8,11 @@
     width: 1370px;
   }
 }
+@media (min-width: 768px) {
+  .mobileMenu {
+    display: none;
+  }
+}
 
 @media (max-width: 1399px) and (min-width: 1200px) {
   .container {

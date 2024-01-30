@@ -62,7 +62,8 @@ body {
   -o-transition: 0.1s all ease-in-out;
 }
 .desktopNavLogo:hover,
-.desktopNavMenuLink:hover {
+.desktopNavMenuLink:hover,
+.mobileMenuLink:hover {
   color: var(--primary);
 }
 
@@ -70,7 +71,8 @@ body {
 .desktopNavLogo:hover::before {
   background-color: #000;
 }
-.desktopNavMenuLink {
+.desktopNavMenuLink,
+.mobileMenuLink {
   color: #545454;
 }
 
@@ -78,7 +80,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 3rem;
+  gap: 2.8rem;
 }
 .desktopNavAppDownloadBtn {
   background-color: var(--primary);
@@ -172,4 +174,12 @@ body {
   background-color: #000;
   top: 0rem;
   rotate: -45deg;
+}
+.mobileMenu {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem 0;
 }
