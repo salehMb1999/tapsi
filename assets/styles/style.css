@@ -453,3 +453,46 @@ body {
 .creditTextsBtn:hover {
   opacity: 0.9;
 }
+
+/* Options Styles */
+
+.options {
+  height: 20rem;
+  background-image: url(./../images/parallax.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  margin-bottom: 20rem;
+}
+.optionsContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+.optionsWrapper {
+  color: #fff;
+  text-align: center;
+  border-left: 0.2rem solid #fff;
+  padding: 0.5rem 1rem;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.lastOption {
+  border: none;
+}
+.optionsTitle {
+  font-family: "danaBold";
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.optionsCaption {
+  display: none;
+}
+.optionsWrapper:hover .optionsCaption {
+  display: flex;
+}

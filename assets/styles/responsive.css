@@ -138,6 +138,21 @@
     font-size: 2rem;
     margin-bottom: 2rem;
   }
+  .options {
+    min-height: 40rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+  }
+  .optionsTitle {
+    font-size: 1.7rem;
+  }
+  .optionsContent {
+    flex-direction: column;
+  }
+  .optionsWrapper {
+    border: none;
+    width: 100%;
+  }
 }
 
 @media (max-width: 575px) {
