@@ -341,7 +341,7 @@ body {
 .special {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
   margin-bottom: 15rem;
 }
 .specialTexts {
@@ -363,7 +363,7 @@ body {
   font-family: "danaMedium";
 }
 .specialImg {
-  width: 80%;
+  width: 90%;
 }
 .specialLinksWrapper {
   margin-top: 2.5rem;
